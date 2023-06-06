@@ -1,0 +1,219 @@
+/* color : start */
+
+/* color : end */
+
+/* global css : start */
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #f6f4f3;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+}
+
+.title {
+    font-family: 'Oswald', sans-serif;
+}
+
+.primary-bg {
+    background-color: #ef271b;
+}
+
+.secondary-bg {
+    background-color: #ffffff;
+}
+/* global css : end */
+
+/* navbar : start */
+#navbar {
+    height: 75px;
+}
+
+#navbar .nav-link.active {
+    color: #ef271b;
+    font-weight: 700;
+}
+/* navbar : end */
+
+/* hero section : start */
+#hero-section {
+    position: relative;
+    height: 500px;
+    margin-top: 75px;
+    background-image: url('../images/background/bg-2.jpeg');
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+}
+
+#hero-section .overlay {
+     position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#hero-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+#hero-section .title {
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#hero-section .title .big {
+    font-size: 30px;
+}
+
+#hero-section .title .small {
+    font-size: 40px;
+}
+
+
+#hero-section .desc {
+  color: #fff;
+  font-size: 18px;
+}
+
+#hero-section .btn.btn-primary {
+    background-color: #ef271b;
+    border: #ef271b;
+    box-shadow: none;
+}
+/* hero section : end */
+
+/* kata pengantar : start */
+#kata-pengantar {
+    height: 500px;
+}
+
+#kata-pengantar img {
+    width: 100%;
+    height: 500px;
+}
+/* kata pengantar : end */
+
+/* profil : start */
+#profil .title {
+    color: #ef271b;
+    text-transform: uppercase;
+}
+
+#profil .title::after {
+    content: '';
+    background-color: #ef271b;
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin-top: 5px;
+}
+
+#profil .bg-img {
+    background-image: url(../images/background/bg-2.jpeg);
+    background-size: cover;
+    height: 300px;
+}
+
+#profil .profil-desc {
+    text-align: justify !important;
+}
+/* profil : end */
+
+/* artikel : start */
+#artikel .title {
+    color: #ef271b;
+    text-transform: uppercase;
+}
+
+#artikel .title::after {
+    content: '';
+    background-color: #ef271b;
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin-top: 5px;
+}
+
+#artikel .article-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#artikel .image {
+    /* position: absolute !important; */
+    margin-top: -50px !important;
+    width: 100% !important;
+    display: block;;
+}
+/* artikel : end */
+
+/* prinsip : start */
+#prinsip .bg-img {
+    background-image: url(../images/background/w_blog2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+}
+
+#prinsip .number {
+    font-size: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 700;
+}
+
+#prinsip .content {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+}
+
+#prinsip ol, ul {
+    padding-left: 2.5rem;
+}
+
+#prinsip ol li::marker {
+    font-size: 35px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+/* prinsip : end */
+
+/* pola kerja : start */
+#pola-kerja .bg-img {
+    background-image: url(../images/background/w_blog2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+}
+/* pola kerja : end */
+
+/* rumah kebangsaan : start */
+#rumah-kebangsaan .bg-img {
+    background-image: url(../images/background/w_blog2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+}
+/* rumah kebangsaan : end */
+
+/* duta aman : start */
+#duta-aman .bg-img {
+    background-image: url(../images/background/w_blog2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+}
+/* duta aman : end */
+
+/* footer : start */
+#footer {
+    background-color: #ef271b;
+}
+/* footer : end */
