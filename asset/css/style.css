@@ -4,7 +4,7 @@
 
 /* global css : start */
 html, body {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 body {
