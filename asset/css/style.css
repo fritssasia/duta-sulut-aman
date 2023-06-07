@@ -101,16 +101,20 @@ p {
 }
 /* kata pengantar : end */
 
-/* pilar : start */
-#pillar .title {
+/* ikrar duta sulut aman : start */
+#ikrar-duta-sulut-aman .title {
     color: #ef271b;
     text-transform: uppercase;
 }
 
-#pillar .card {
+#ikrar-duta-sulut-aman .card {
     height: 300px;
 }
-/* pilar : end */
+
+#ikrar-duta-sulut-aman .card p {
+    text-align: center;
+}
+/* ikrar duta sulut aman : end */
 
 /* about : start */
 #about .title {
